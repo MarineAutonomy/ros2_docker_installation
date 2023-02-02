@@ -63,5 +63,13 @@ Verify that you can run `docker` commands without `sudo`
 docker run hello-world
 ```
 
+## 3. Manage Docker as a non-root user
+
+
+
+
+
+
+
 
 
