@@ -112,6 +112,33 @@ Restart the container
 Though the sensor is not connected to your device you can stil see the data being published as the device is connected to tutorial host's device
 ROS2 allows devices with same `ROS_DOMAIN_ID` and connected by same network to communicate with each other easily.
 
+```
+ros2 topic list
+```
+If the entire setup process till now was successful, you should be able to see the following
+```
+/imu/nav_sat_fix
+/imu/pos_ecef
+/imu/temp
+/imu/utc_ref
+/imu/velocity
+/parameter_events
+/rosout
+/sbg/ekf_euler
+/sbg/ekf_nav
+/sbg/ekf_quat
+/sbg/gps_hdt
+/sbg/gps_pos
+/sbg/gps_raw
+/sbg/gps_vel
+/sbg/imu/data
+/sbg/imu_data
+/sbg/imu_short
+/sbg/status
+/sbg/utc_time
+/tf
+/tf_static
+```
 
 
 
