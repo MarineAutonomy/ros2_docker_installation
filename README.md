@@ -102,6 +102,16 @@ You can `exit` the container to see the file system
 exit
 ```
 
+## 4. SBG sensor demo
+
+Restart the container
+```
+./run_docker.sh
+```
+
+Though the sensor is not connected to your device you can stil see the data being published as the device is connected to tutorial host's device
+ROS2 allows devices with same `ROS_DOMAIN_ID` and connected by same network to communicate with each other easily.
+
 
 
 
