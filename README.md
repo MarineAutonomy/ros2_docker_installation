@@ -84,6 +84,13 @@ Build the Docker Image from the Dockerfile
 ./docker.sh
 ```
 
+Run the docker image and start a conatiner
+```
+./run_docker.sh
+```
+
+
+
 
 
 
