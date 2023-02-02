@@ -41,5 +41,27 @@ Verify that the Docker Engine installation is successful by running the hello-wo
 sudo docker run hello-world
 ```
 
+## 2. Manage Docker as a non-root user
+
+Create the docker group.
+```
+sudo groupadd docker
+```
+
+Add your user to the docker group.
+```
+sudo usermod -aG docker $USER
+```
+
+Activate the changes to groups
+```
+newgrp docker
+```
+
+Verify that you can run `docker` commands without `sudo`
+```
+docker run hello-world
+```
+
 
 
