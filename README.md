@@ -63,8 +63,21 @@ Verify that you can run `docker` commands without `sudo`
 docker run hello-world
 ```
 
-## 3. Manage Docker as a non-root user
+## 3. Install the ROS2 Docker Image
 
+Create a folder which will contain all the required files
+```
+mkdir ROS2
+cd ROS2
+```
+
+Clone the `ros2_docker_installation` repository
+```
+git clone https://github.com/MarineAutonomy/ros2_docker_installation.git
+```
+```
+cd ros2_docker_installation
+```
 
 
 
