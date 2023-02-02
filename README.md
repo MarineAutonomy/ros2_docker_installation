@@ -150,9 +150,13 @@ We can also visualize the live data from the sensor using `rqt`
 rqt
 ```
 
+## 5. Other useful installations
 
 
+Terminal emulator - terminator
+```
+sudo apt install terminator
+```
 
-
-
+Visual Studio Code
 
