@@ -94,6 +94,14 @@ You should now see `docker@` at the start of command-lines
 colcon build
 ```
 
+This creates the `build` `install` and `log` inside the `colcon_ws` folder.
+
+You can `exit` the container to see the file system
+
+```
+exit
+```
+
 
 
 
