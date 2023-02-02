@@ -89,6 +89,11 @@ Run the docker image and start a conatiner
 ./run_docker.sh
 ```
 
+You should now see `docker@` at the start of command-lines
+```
+colcon build
+```
+
 
 
 
