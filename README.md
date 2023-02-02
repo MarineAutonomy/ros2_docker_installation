@@ -79,6 +79,11 @@ git clone https://github.com/MarineAutonomy/ros2_docker_installation.git
 cd ros2_docker_installation
 ```
 
+Build the Docker Image from the Dockerfile
+```
+./docker.sh
+```
+
 
 
 
