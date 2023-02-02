@@ -140,7 +140,15 @@ If the entire setup process till now was successful, you should be able to see t
 /tf_static
 ```
 
+Let's check the data being provided by the sensor
+```
+ros2 topic echo /sbg/imu/data
+```
 
+We can also visualize the live data from the sensor using `rqt`
+```
+rqt
+```
 
 
 
