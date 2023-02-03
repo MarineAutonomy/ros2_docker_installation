@@ -5,7 +5,7 @@ LABEL version="1.0"
 LABEL description="Docker environment for ROS2 implementation on Matsya"
 
 RUN apt-get update
-RUN apt-get -y install python3-pip
+RUN apt-get -y install python3-pip wget
 # RUN apt-get update
 
 ENV USERNAME docker
