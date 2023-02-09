@@ -1,4 +1,4 @@
-docker run -it --rm --device=/dev/ttyUSB0 --name matsya_ros2_host \
+docker run -it --rm --privileged --name matsya_ros2_b \
     --net=host \
     --env="DISPLAY" \
     --env ROS_DOMAIN_ID=79 \

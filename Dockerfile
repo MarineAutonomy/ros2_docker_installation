@@ -22,8 +22,10 @@ USER docker
 
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 RUN echo "source ./install/local_setup.bash" >> ~/.bashrc
-RUN echo "export ROS_DOMAIN_ID=79" >> ~/.bashrc
+#RUN echo "export ROS_DOMAIN_ID=79" >> ~/.bashrc
 RUN echo "source /usr/share/colcon_cd/function/colcon_cd.sh" >> ~/.bashrc
 RUN echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
+RUN echo "alias sbg='ros2 launch sbg_driver sbg_device_launch.py'" >> ~/.bashrc
+RUN echo "alias sbg_hear='ros2 topic echo /sbg/imu/data'" >> ~/.bashrc
 
 CMD ["bash"]
